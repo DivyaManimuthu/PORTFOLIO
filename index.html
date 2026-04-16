@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyadharshini M | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-grid"></div>
+    <div id="tsparticles"></div>
+
+    <!-- Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">DIVYADHARSHINI<span class="accent-red">.M</span></a>
+            <button class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+
+                <!-- PFP and Floating Orbit Icons -->
+                <div class="hero-profile fade-in">
+                    <div class="profile-glow"></div>
+                    <div class="profile-img-container">
+                        <img src="me.jpeg" alt="Divyadharshini" class="profile-img">
+                    </div>
+
+                    <!-- Orbital Elements -->
+                    <div class="float-icon icon-brain">
+                        <i class="fa-solid fa-brain accent-red"></i>
+                    </div>
+                    <div class="float-icon icon-stars">
+                        <i class="fa-solid fa-wand-magic-sparkles accent-red"></i>
+                    </div>
+                    <div class="float-icon icon-code">
+                        <i class="fa-solid fa-code accent-cyan"></i>
+                    </div>
+                </div>
+
+                <!-- Bio & Title Content -->
+                <div class="hero-content fade-in delay-1">
+                    <div class="status-pill status-red glow-border-red mb-4">
+                        <i class="fa-solid fa-sparkles"></i> Available for Full-time Opportunities
+                    </div>
+
+                    <p class="greeting">Hi, I'm</p>
+                    <h1 class="hero-name">Divyadharshini.M</h1>
+
+                    <div class="role-tags mt-4 mb-4">
+                        <span class="role-tag"><i class="fa-solid fa-brain accent-red"></i> Software Engineer</span>
+                        <span class="role-tag"><i class="fa-solid fa-code accent-cyan"></i> Frontend Developer</span>
+                    </div>
+
+                    <h2 class="hero-desc mt-5">Building intelligent solutions with<br>cutting-edge technologies</h2>
+
+                    <p class="hero-subtext mt-4">
+                        Final Year @ Sethu Institute of Technology • Specializing in Java, Frontend & Problem Solving •
+                        Creating innovative projects that bridge technology and real-world needs • <a
+                            href="https://linkedin.com/in/divya-dharshini" target="_blank"
+                            class="accent-red link-hover">LinkedIn</a>
+                    </p>
+
+                    <div class="hero-actions mt-5 mb-5">
+                        <a href="#projects" class="btn btn-primary">View My Work <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary"><i class="fa-regular fa-envelope"></i> Let's
+                            Connect</a>
+                    </div>
+
+                    <div class="stats-row mt-4">
+                        <div class="stat-item">
+                            <h3 class="accent-red">8.5</h3>
+                            <p>GPA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="accent-cyan">2027</h3>
+                            <p>GRADUATING</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="accent-red">JAVA</h3>
+                            <p>SPECIALIST</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <div class="section-badge badge-red"><i class="fa-solid fa-bullseye"></i> My Story</div>
+                    <h2 class="section-title">About <span class="split-color"><span class="accent-red">M</span><span
+                                class="accent-cyan">e</span></span></h2>
+                    <p class="section-subtitle">Passionate about coding and driven by innovation</p>
+                </div>
+
+                <div class="bento-grid mt-5">
+                    <!-- Education Card -->
+                    <div class="bento-card fade-in delay-1">
+                        <div class="card-icon icon-red-tint"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="card-content mt-4">
+                            <h3>Education</h3>
+                            <p class="card-highlight mt-2">B.E. in Computer Science & Engineering</p>
+                            <span class="small-pill pill-grey mt-2 mb-2 inline-block">Core Specialization</span>
+                            <p class="card-subtext">Sethu Institute of Technology</p>
+                        </div>
+                    </div>
+
+                    <!-- Location Card -->
+                    <div class="bento-card fade-in delay-2">
+                        <div class="card-icon icon-cyan-tint"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="card-content mt-4">
+                            <h3>Location</h3>
+                            <p class="card-highlight mt-2">Aruppukottai, Tamil Nadu</p>
+                            <p class="card-subtext mt-2">India 🇮🇳</p>
+                            <p class="card-subtext mt-1 text-sm">Open to Remote & On-site</p>
+                        </div>
+                    </div>
+
+                    <!-- GPA Card -->
+                    <div class="bento-card fade-in delay-3">
+                        <div class="card-icon icon-red-tint"><i class="fa-solid fa-medal"></i></div>
+                        <div class="card-content mt-4">
+                            <h3>Academic Excellence</h3>
+                            <h2 class="huge-stat accent-red mt-2">8.5</h2>
+                            <p class="card-subtext text-sm">CGPA out of 10.0</p>
+                        </div>
+                    </div>
+
+                    <!-- Graduation Card -->
+                    <div class="bento-card fade-in delay-4">
+                        <div class="card-icon icon-cyan-tint"><i class="fa-regular fa-calendar-check"></i></div>
+                        <div class="card-content mt-4">
+                            <h3>Graduation</h3>
+                            <h2 class="huge-stat accent-cyan mt-2">2027</h2>
+                            <p class="card-subtext text-sm">Expected Completion</p>
+                        </div>
+                    </div>
+
+                    <!-- Internships Card -->
+                    <div class="bento-card span-1 fade-in delay-1">
+                        <div class="card-icon icon-red-tint"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="card-content mt-4">
+                            <h3>Internships & Training</h3>
+                            <ul class="custom-list mt-3">
+                                <li>
+                                    <span class="bullet accent-red">•</span>
+                                    <div>Web Development Intern — <strong>Phoenix Softech</strong> <span
+                                            class="card-subtext">(Recent)</span></div>
+                                </li>
+                                <li>
+                                    <span class="bullet accent-red">•</span>
+                                    <div>Front End Training — <strong>Amizth</strong></div>
+                                </li>
+                                <li>
+                                    <span class="bullet accent-red">•</span>
+                                    <div>IoT Tra ining — <strong>e-Yantra & Sethu Institute</strong></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Certifications Card -->
+                    <div class="bento-card span-1 fade-in delay-2">
+                        <div class="card-icon icon-cyan-tint"><i class="fa-solid fa-trophy"></i></div>
+                        <div class="card-content mt-4">
+                            <h3>Certifications & Projects</h3>
+                            <ul class="custom-list mt-3">
+                                <li>
+                                    <span class="bullet accent-cyan">•</span>
+                                    <div><strong>NPTEL:</strong> Problem Solving through Programming in Java</div>
+                                </li>
+                                <li>
+                                    <span class="bullet accent-cyan">•</span>
+                                    <div><strong>Major Project:</strong> Multimodel lung cancer
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="bullet accent-cyan">•</span>
+                                    <div><strong>Participate:</strong> Coding & Hackathons</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Journey Section -->
+        <section class="journey section" id="journey">
+            <div class="container">
+                <div class="bento-card fade-in">
+                    <div class="card-header-icon mb-4">
+                        <div class="card-icon icon-red-tint"><i class="fa-regular fa-lightbulb"></i></div>
+                        <div>
+                            <h2 class="section-title text-left mb-0 text-3xl">My Journey</h2>
+                            <p class="section-subtitle text-left text-sm mt-1">Driven by curiosity and innovation</p>
+                        </div>
+                    </div>
+                    <div class="journey-content mt-4">
+                        <p>I'm a passionate final-year Computer Science student specializing in <span
+                                class="accent-red font-semibold">Java and Frontend Development</span> at Sethu Institute
+                            of Technology. With a strong foundation in core programming, data structures, and web
+                            technologies, I'm dedicated to leveraging cutting-edge technologies to solve real-world
+                            problems.</p>
+                        <p class="mt-4">My journey in tech is driven by <span
+                                class="accent-cyan font-semibold">curiosity, innovation, and a commitment to continuous
+                                learning</span>. I excel in collaborative environments where communication,
+                            problem-solving, and adaptability are key to building impactful solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Expertise Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <div class="section-badge badge-red"><i class="fa-solid fa-bullseye"></i> Technical Arsenal</div>
+                    <h2 class="section-title">Skills & <span class="split-color"><span
+                                class="accent-red">E</span>xpertis<span class="accent-cyan">e</span></span></h2>
+                    <p class="section-subtitle">A comprehensive toolkit for building innovative solutions</p>
+                </div>
+
+                <div class="bento-grid single-col mt-5">
+                    <!-- Web Development -->
+                    <div class="bento-card flex-row fade-in delay-1">
+                        <div class="card-icon icon-cyan-tint"><i class="fa-solid fa-database"></i></div>
+                        <div class="card-content full-width">
+                            <h3 class="mb-3">Web Development</h3>
+                            <div class="tag-cloud">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">React.js</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Programming & Logic -->
+                    <div class="bento-card flex-row fade-in delay-2">
+                        <div class="card-icon icon-red-tint"><i class="fa-solid fa-brain"></i></div>
+                        <div class="card-content full-width">
+                            <h3 class="mb-3">Programming & Logic</h3>
+                            <div class="tag-cloud">
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">Data Structures</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="bento-card flex-row fade-in delay-1">
+                        <div class="card-icon icon-cyan-tint"><i class="fa-solid fa-code"></i></div>
+                        <div class="card-content full-width">
+                            <h3 class="mb-3">Tools & Platforms</h3>
+                            <div class="tag-cloud">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">VS Code</span>
+                                <span class="skill-tag">Cursor</span>
+                                <span class="skill-tag">Figma</span>
+                                <span class="skill-tag">Canva</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="bento-card flex-row fade-in delay-2">
+                        <div class="card-icon icon-red-tint"><i class="fa-solid fa-user-group"></i></div>
+                        <div class="card-content full-width">
+                            <h3 class="mb-3">Soft Skills</h3>
+                            <div class="tag-cloud">
+                                <span class="skill-tag">Communication</span>
+                                <span class="skill-tag">Collaboration</span>
+                                <span class="skill-tag">Problem Solving</span>
+                                <span class="skill-tag">Adaptability</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="bento-card flex-row fade-in delay-1">
+                        <div class="card-icon icon-red-tint"><i class="fa-solid fa-globe"></i></div>
+                        <div class="card-content full-width">
+                            <h3 class="mb-3">Languages</h3>
+                            <div class="tag-cloud">
+                                <span class="skill-tag">English</span>
+                                <span class="skill-tag">Tamil</span>
+                                <span class="skill-tag">Kananda</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <div class="section-badge badge-red"><i class="fa-solid fa-sparkles"></i> What I Offer</div>
+                    <h2 class="section-title">My <span class="split-color"><span class="accent-red">Ser</span><span
+                                class="accent-cyan">vices</span></span></h2>
+                    <p class="section-subtitle">Delivering excellence through innovative solutions and modern
+                        technologies</p>
+                </div>
+
+                <div class="bento-grid single-col mt-5">
+                    <!-- Frontend -->
+                    <div class="bento-card fade-in delay-1">
+                        <div class="card-icon icon-red-tint mb-4"><i class="fa-solid fa-table-columns"></i></div>
+                        <div class="card-content">
+                            <h3 class="mb-3 text-xl">Frontend Development</h3>
+                            <p class="card-subtext mb-4">Building responsive and interactive user interfaces with modern
+                                frameworks, ensuring seamless user experiences across all devices.</p>
+                            <hr class="card-divider red-divider">
+                        </div>
+                    </div>
+
+                    <!-- UI/UX -->
+                    <div class="bento-card fade-in delay-2">
+                        <div class="card-icon icon-cyan-tint mb-4"><i class="fa-solid fa-palette"></i></div>
+                        <div class="card-content">
+                            <h3 class="mb-3 text-xl">UI/UX Design</h3>
+                            <p class="card-subtext mb-4">Creating beautiful, intuitive interfaces with modern design
+                                principles and attention to user experience.</p>
+                            <hr class="card-divider cyan-divider">
+                        </div>
+                    </div>
+
+                    <!-- Web Performance -->
+                    <div class="bento-card fade-in delay-3">
+                        <div class="card-icon icon-red-tint mb-4"><i class="fa-solid fa-bolt"></i></div>
+                        <div class="card-content">
+                            <h3 class="mb-3 text-xl">Web Performance</h3>
+                            <p class="card-subtext mb-4">Optimizing applications for speed, accessibility, and best
+                                practices to deliver exceptional performance.</p>
+                            <hr class="card-divider red-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <div class="section-badge badge-red" style="border: 1px solid rgba(244, 63, 94, 0.2);"><i
+                            class="fa-solid fa-sparkles"></i> Innovation Showcase</div>
+                    <h2 class="section-title">Featured <span class="split-color"><span
+                                class="accent-red">Pro</span><span class="accent-cyan">jects</span></span></h2>
+                    <p class="section-subtitle">Transforming ideas into impactful solutions through innovative
+                        engineering</p>
+                </div>
+
+                <div class="bento-grid mt-5">
+                    <!-- Project 1 -->
+                    <div class="bento-card span-2 fade-in delay-3 project-card">
+                        <div class="card-content">
+                            <div class="card-icon icon-red-tint mb-4"
+                                style="width: 50px; height: 50px; border-radius: 12px;">
+                                <i class="fa-solid fa-link" style="font-size: 1.2rem;"></i>
+                            </div>
+                            <h3 class="text-3xl mb-3">Blockchain-Based Secure Ration Shop System</h3>
+                            <span class="pill-green inline-block mb-4 text-sm font-semibold">Completed</span>
+
+                            <p class="card-subtext mb-5" style="font-size: 1.05rem;">
+                                Designed a decentralized solution to eliminate corruption and improve transparency in
+                                the Public Distribution System (PDS) using immutable ledger technology.
+                            </p>
+
+                            <h4 class="accent-red text-xl mb-4">Key Highlights</h4>
+                            <ul class="custom-list mb-5">
+                                <li>
+                                    <div class="card-icon icon-cyan-tint"
+                                        style="width: 35px; height: 35px; min-width: 35px; font-size: 0.9rem;">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </div>
+                                    <span class="card-subtext">Prevented data tampering and black marketing using
+                                        immutable transaction records.</span>
+                                </li>
+                                <li>
+                                    <div class="card-icon icon-cyan-tint"
+                                        style="width: 35px; height: 35px; min-width: 35px; font-size: 0.9rem;">
+                                        <i class="fa-solid fa-user-check"></i>
+                                    </div>
+                                    <span class="card-subtext">Ensured fair distribution by verifying real-time stock
+                                        and beneficiary authenticity.</span>
+                                </li>
+                            </ul>
+
+                            <div class="tag-cloud mb-5">
+                                <span class="skill-tag">Blockchain</span>
+                                <span class="skill-tag">Cryptography</span>
+                                <span class="skill-tag">Smart Contracts</span>
+                                <span class="skill-tag">PDS Security</span>
+                            </div>
+
+                            <div class="project-impact mt-5">
+                                <h4 class="text-xl mb-4">Project Impact</h4>
+                                <div class="bento-grid"
+                                    style="grid-template-columns: repeat(2, 1fr); max-width: 350px;">
+                                    <div class="bento-card" style="padding: 1.5rem;">
+                                        <h2 class="accent-red text-3xl mb-1">0%</h2>
+                                        <p class="card-subtext text-sm">Data<br>Tampering</p>
+                                    </div>
+                                    <div class="bento-card" style="padding: 1.5rem;">
+                                        <h2 class="accent-red text-3xl mb-1">100%</h2>
+                                        <p class="card-subtext text-sm">Transparent<br>Log</p>
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary mt-5"
+                                    style="padding: 0.6rem 1.5rem; border-radius: 8px; width: auto; font-size: 0.9rem;"
+                                    href="#">View Project ↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="bento-card span-2 fade-in delay-1 project-card">
+                        <div class="card-content">
+                            <div class="card-icon icon-red-tint mb-4"
+                                style="width: 50px; height: 50px; border-radius: 12px;">
+                                <i class="fa-solid fa-microscope" style="font-size: 1.2rem;"></i>
+                            </div>
+                            <h3 class="text-3xl mb-3">Multimodal Explainable AI for Lung Cancer</h3>
+                            <span class="pill-green inline-block mb-4 text-sm font-semibold"
+                                style="background: rgba(234, 179, 8, 0.1); color: #eab308; border-color: rgba(234, 179, 8, 0.3);">Completed</span>
+
+                            <p class="card-subtext mb-5" style="font-size: 1.05rem;">
+                                Developing an advanced diagnostic system using Deep Learning and XAI (SHAP/Grad-CAM) to
+                                detect early-stage lung cancer with high transparency for medical professionals.
+                            </p>
+
+                            <h4 class="accent-red text-xl mb-4">Key Highlights</h4>
+                            <ul class="custom-list mb-5">
+                                <li>
+                                    <div class="card-icon icon-cyan-tint"
+                                        style="width: 35px; height: 35px; min-width: 35px; font-size: 0.9rem;">
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                    <span class="card-subtext">Integrated multimodal clinical data using LIDC-IDRI
+                                        dataset for robust prediction.</span>
+                                </li>
+                                <li>
+                                    <div class="card-icon icon-cyan-tint"
+                                        style="width: 35px; height: 35px; min-width: 35px; font-size: 0.9rem;">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                    <span class="card-subtext">Implemented Explainable AI (XAI) to provide visual
+                                        heatmaps of detected nodules.</span>
+                                </li>
+                            </ul>
+
+                            <div class="tag-cloud mb-5">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Deep Learning</span>
+                                <span class="skill-tag">XAI</span>
+                                <span class="skill-tag">Healthcare Tech</span>
+                            </div>
+
+                            <div class="project-impact mt-5">
+                                <h4 class="text-xl mb-4">Project Impact</h4>
+                                <div class="bento-grid"
+                                    style="grid-template-columns: repeat(2, 1fr); max-width: 350px;">
+                                    <div class="bento-card" style="padding: 1.5rem;">
+                                        <h2 class="accent-red text-3xl mb-1">93%</h2>
+                                        <p class="card-subtext text-sm">Accuracy<br>Target</p>
+                                    </div>
+                                    <div class="bento-card" style="padding: 1.5rem;">
+                                        <h2 class="accent-red text-3xl mb-1">XAI</h2>
+                                        <p class="card-subtext text-sm">Explainable<br>Logic</p>
+                                    </div>
+                                </div>
+                                <a class="btn btn-primary mt-5"
+                                    style="padding: 0.6rem 1.5rem; border-radius: 8px; width: auto; font-size: 0.9rem;"
+                                    href="#">View Case Study ↗</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header text-center fade-in">
+                    <div class="section-badge badge-red" style="border: 1px solid rgba(244, 63, 94, 0.2);"><i
+                            class="fa-regular fa-comment-dots"></i> Let's Connect</div>
+                    <h2 class="section-title">Get In <span class="split-color"><span class="accent-red">To</span><span
+                                class="accent-cyan">uch</span></span></h2>
+                    <p class="section-subtitle">I'm always excited to discuss new opportunities and collaborations</p>
+                </div>
+
+                <div class="bento-grid mt-5">
+                    <!-- Left Column: Info Cards -->
+                    <div class="contact-info">
+                        <div class="bento-card fade-in delay-1 w-full mb-4">
+                            <div class="card-header-icon">
+                                <div class="card-icon icon-red-tint"><i class="fa-regular fa-envelope"></i></div>
+                                <div>
+                                    <h3 class="text-xl mb-1">Email</h3>
+                                    <p class="card-subtext">s.manimuthu123@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bento-card fade-in delay-2 w-full mb-4">
+                            <div class="card-header-icon">
+                                <div class="card-icon icon-cyan-tint"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h3 class="text-xl mb-1">Location</h3>
+                                    <p class="card-subtext">Aruppukottai, Tamil Nadu<br>India 🇮🇳</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bento-card fade-in delay-3 w-full">
+                            <div class="card-header-icon mb-3">
+                                <div class="card-icon icon-red-tint"
+                                    style="font-size: 1.2rem; width: 40px; height: 40px;"><i
+                                        class="fa-solid fa-sparkles"></i></div>
+                                <h3 class="text-xl mb-0">Seeking Opportunities</h3>
+                            </div>
+                            <p class="card-subtext" style="padding-top: 0.5rem; line-height: 1.6;">I'm actively looking
+                                for full-time roles in Frontend Development and Software Engineer. Open to opportunities
+                                that challenge me to grow and innovate.</p>
+                            <div class="tag-cloud mt-4">
+                                <span class="skill-tag">Software Engineer</span>
+                                <span class="skill-tag">Frontend Developer</span>
+                                <span class="skill-tag">Ui/Ux Designer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Contact Form -->
+                    <div class="bento-card fade-in delay-4 h-full">
+                        <form class="contact-form">
+                            <div class="form-group mb-4">
+                                <label class="font-semibold block mb-2 text-sm text-secondary">Name</label>
+                                <input type="text" placeholder="Your name" class="form-input">
+                            </div>
+                            <div class="form-group mb-4">
+                                <label class="font-semibold block mb-2 text-sm text-secondary">Email</label>
+                                <input type="email" placeholder="your.email@example.com" class="form-input">
+                            </div>
+                            <div class="form-group mb-5">
+                                <label class="font-semibold block mb-2 text-sm text-secondary">Message</label>
+                                <textarea rows="5" placeholder="Tell me about your project or opportunity..."
+                                    class="form-input"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-gradient w-full" style="max-width: 100%;">Send Message
+                                ↗</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer text-center mt-5 mb-5 pb-5 fade-in">
+            <p class="card-subtext mb-3" style="font-size: 0.95rem;">Made with <i
+                    class="fa-solid fa-heart accent-red mx-1"></i> by Divyadharshini.M</p>
+            <div class="footer-socials mb-4"
+                style="font-size: 1.4rem; gap: 1.5rem; display: flex; justify-content: center;">
+                <a href="https://linkedin.com/in/" target="_blank" class="card-subtext link-hover"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:s.manimuthu123@gmail.com" class="card-subtext link-hover"><i
+                        class="fa-regular fa-envelope"></i></a>
+            </div>
+            <p class="card-subtext text-sm">© 2027 All rights reserved.</p>
+        </footer>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2.12.0/tsparticles.engine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
